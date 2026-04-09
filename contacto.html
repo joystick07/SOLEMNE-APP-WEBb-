@@ -1,21 +1,25 @@
-<!DOCTYPE html>
-<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>Título de la Página</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Contacto</title>
 </head>
-<body>
-    <header></header>
-    <main class="container">
-        <h2></h2>
-        <form>
-            <label>Nombre:</label>
-            <input type="text" required>
-            <label>Email:</label>
-            <input type="email" required>
-            <button type="submit" class="btn">Enviar Consulta</button>
-        </form>
+
+<main>
+        <section style="max-width: 500px; margin: auto;">
+            <h2>Inscripción y Soporte</h2>
+            <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 10px;">
+                <label>Nombre:</label>
+                <input type="text" placeholder="Ej: Jorge" required>
+                <label>Área de Interés:</label>
+                <select>
+                    <option>SaaS Project Management</option>
+                    <option>Hardware Servidores</option>
+                    <option>Ciberseguridad</option>
+                </dl>
+                <label>Mensaje:</label>
+                <textarea rows="4"></textarea>
+                <label><input type="checkbox"> Acepto el programa de fidelización[cite: 14].</label>
+                <button type="submit" style="background: var(--primary-color); color: white; border: none; padding: 10px;">Enviar Consulta</button>
+            </form>
+        </section>
     </main>
-</body>
-</html>
