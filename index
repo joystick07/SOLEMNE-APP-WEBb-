@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Mi Proyecto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="equipo.html">Equipo</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+ <main>
+        <section class="hero">
+            <h1>Productos Tecnológicos</h1>
+            <p>Tecnología con los mejores preciosal alcance de un clic.</p>
+            <a href="servicios.html" class="btn">Explorar Módulos</a>
+        </section>
+    </main>
+<main class="container">
+    <h2>Nuestros Módulos</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="reparacion.jpg" alt="servicio" class="card-img">
+            <h3>Reparación de Equipos</h3>
+            <p>Descripción breve del servicio.</p>
+        </div>
+
+        <div class="card">
+            <img src="orientacion.jpg" alt="Orientación" class="card-img">
+            <h3>Orientación Sobre Equipos</h3>
+            <p>Descripción breve del servicio.</p>
+        </div>
+
+        <div class="card">
+            <img src="garantia.jpg" alt="Garantía" class="card-img">
+            <h3>Garantía</h3>
+            <p>Descripción breve del servicio.</p>
+        </div>
+    </div>
+</main>
+    <footer>
+        <p>&copy; 2026 - Universidad San Sebastián | Proyecto de Desarrollo</p>
+    </footer>
+
+</body>
+</html>
